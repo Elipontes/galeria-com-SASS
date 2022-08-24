@@ -1,0 +1,220 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #777;
+}
+body li {
+  list-style: none;
+}
+body a {
+  text-decoration: none;
+  color: #777;
+  transition: 0.4s;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  padding: 1.5rem 0 0.8rem 1rem;
+  margin: 0 auto;
+}
+@media (max-width: 700px) {
+  .header {
+    padding: 1.1rem;
+  }
+}
+.header-logo {
+  color: #FFF;
+  font-size: 2.1rem;
+}
+.header-navbar ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-navbar ul li {
+  margin: 0 1rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.header-navbar ul li .active {
+  color: #20C997;
+}
+.header-navbar ul li a:hover {
+  color: #20C997;
+}
+
+.gallery {
+  max-width: 1170px;
+  padding: 1.5rem 0 0.8rem 1rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+@media (max-width: 700px) {
+  .gallery {
+    flex-direction: column;
+  }
+}
+.gallery-card {
+  width: 31%;
+  height: 400px;
+  margin-bottom: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #FFF;
+}
+@media (max-width: 700px) {
+  .gallery-card {
+    width: 90%;
+    margin-bottom: 6%;
+  }
+}
+.gallery-card-title {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+.gallery-card-btn {
+  padding: 0.6rem 2rem;
+  border: 2px solid #FFF;
+  color: #FFF;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.gallery-card-btn:hover {
+  background-color: #FFF;
+  color: #000;
+}
+.gallery #card-1 {
+  background-image: url("../img/animais.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-1:hover {
+  filter: grayscale(0%);
+}
+.gallery #card-2 {
+  background-image: url("../img/cidade.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-2:hover {
+  filter: grayscale(0%);
+}
+.gallery #card-3 {
+  background-image: url("../img/arquitetura.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-3:hover {
+  filter: grayscale(0%);
+}
+.gallery #card-4 {
+  background-image: url("../img/decoracao.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-4:hover {
+  filter: grayscale(0%);
+}
+.gallery #card-5 {
+  background-image: url("../img/esportes.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-5:hover {
+  filter: grayscale(0%);
+}
+.gallery #card-6 {
+  background-image: url("../img/natureza.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-6:hover {
+  filter: grayscale(0%);
+}
+.gallery #card-7 {
+  background-image: url("../img/tech.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-7:hover {
+  filter: grayscale(0%);
+}
+.gallery #card-8 {
+  background-image: url("../img/pessoas.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-8:hover {
+  filter: grayscale(0%);
+}
+.gallery #card-9 {
+  background-image: url("../img/refeicoes.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(100%);
+}
+.gallery #card-9:hover {
+  filter: grayscale(0%);
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+footer span {
+  font-weight: bolder;
+  color: #20C997;
+}
+footer span a {
+  color: #20C997;
+}
+footer .social-media ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 6px;
+}
+footer .social-media ul li {
+  margin: 0 1rem;
+}
+footer .social-media ul li a:hover {
+  color: #20C997;
+}
+
+/*# sourceMappingURL=styles.css.map */
